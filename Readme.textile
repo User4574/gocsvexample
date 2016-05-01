@@ -1,0 +1,10 @@
+h2. Bug
+
+If a column has a blank header, unmarshalling fails.
+
+h2. Running
+
+# go get -u github.com/gocarina/gocsv
+# go get -u github.com/User4574/gocsvexample
+# cd $GOPATH/src/github.com/User4574/gocsvexample
+# go test
